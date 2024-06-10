@@ -1,7 +1,7 @@
 # Proyecto WebScraping
 
 ## El Web Scraping: Descubriendo Datos en la Web
-![web-scraping](https://github.com/Agusherbo/Web-Scraping-Cuspide/blob/main/Images/portada.png)
+![web-scraping](https://github.com/Agusherbo/Cuspide-Web-Scraping-/blob/main/Images/portada.png)
 
 En el mundo actual, la información fluye a través de la internet, y cada vez más aspectos de nuestra vida se ven influenciados por la tecnología y la disponibilidad de datos en línea. En este contexto, el proyecto que vamos a explorar se sumerge en el fascinante mundo del web scraping, una técnica que nos permite recolectar datos valiosos de páginas web de manera automatizada. Pero, ¿qué es exactamente el web scraping?
 
@@ -17,9 +17,9 @@ Además, queremos organizar estos datos de manera efectiva. Para hacerlo, creare
   <h2>Proceso de ETL (Extraccion, Transformación y Carga)</h2>
 </div>
 
-![ELT](https://github.com/Agusherbo/Web-Scraping-Cuspide/blob/main/Images/etl.jpg)
+![ELT](https://github.com/Agusherbo/Cuspide-Web-Scraping-/blob/main/Images/etl.jpg)
 
-#### En este proyecto, la tarea principal fue la de recolección y transformación de datos. En el archivo [Web Scraping](https://github.com/Agusherbo/Web-Scraping-Cuspide/blob/main/Data/webscraping.ipynb) esta todo el procedimiento detallado
+#### En este proyecto, la tarea principal fue la de recolección y transformación de datos. En el archivo [Web Scraping](https://github.com/Agusherbo/Cuspide-Web-Scraping-/blob/main/Data/webscraping.ipynb) esta todo el procedimiento detallado
 
 * ### Recopilación de datos
 
@@ -52,7 +52,7 @@ Para poder cargar los datos a MySQL Workbench, convertimos las listas de libros 
 
 #### Creación de la Base de Datos y Tablas:
 
-En el archivo [webscraping.sql](https://github.com/Agusherbo/Web-Scraping-Cuspide/blob/main/Data/webscraping.sql) proporcionamos los comandos necesarios para crear la base de datos y las tablas en MySQL Workbench. Esto incluye la definición de la estructura de las tablas, como los nombres de las columnas y sus tipos de datos correspondientes.
+En el archivo [webscraping.sql](https://github.com/Agusherbo/Cuspide-Web-Scraping-/blob/main/Data/webscraping.sql) proporcionamos los comandos necesarios para crear la base de datos y las tablas en MySQL Workbench. Esto incluye la definición de la estructura de las tablas, como los nombres de las columnas y sus tipos de datos correspondientes.
 
 #### Carga de Datos a las Tablas:
 
@@ -62,9 +62,9 @@ Una vez que hemos definido las tablas, utilizamos los archivos CSV para cargar l
 
 Después de completar el proceso de `web scraping`, `manejo de errores` y `carga de datos` en `MySQL Workbench`, obtuvimos un resultado final en forma de dos tablas organizadas: una tabla que almacena los datos de los libros con precios y otra tabla que registra los errores asociados con los libros sin precios. A continuación, presentamos cómo se ven estas tablas:
 #### Tabla Libros
-![Tabla Libros](https://github.com/Agusherbo/Web-Scraping-Cuspide/blob/main/Images/263892849-3d034508-e8d5-4d99-bb80-4d8534aa1b04.png)
+![Tabla Libros](https://github.com/Agusherbo/Cuspide-Web-Scraping-/blob/main/Images/263892849-3d034508-e8d5-4d99-bb80-4d8534aa1b04.png)
 #### Tabla Errores
-![Tabla Errores](https://github.com/Agusherbo/Web-Scraping-Cuspide/blob/main/Images/263892783-2ca92877-dbbe-49d6-b529-7eec85ed73d2.png)
+![Tabla Errores](https://github.com/Agusherbo/Cuspide-Web-Scraping-/blob/main/Images/263892783-2ca92877-dbbe-49d6-b529-7eec85ed73d2.png)
 
 ## Explorando el Potencial de los Datos Recolectados
 
